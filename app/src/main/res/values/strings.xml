@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="picture_of_attraction">picture of attraction</string>
 </resources>
