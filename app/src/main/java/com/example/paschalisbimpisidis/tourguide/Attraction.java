@@ -7,18 +7,22 @@ package com.example.paschalisbimpisidis.tourguide;
 public class Attraction {
 
     private static final int NO_IMAGE_PROVIDED = -1;
+
     /**
      * title of the attraction
      */
     private String mAttractionTitle;
+
     /**
      * address of the attraction
      */
     private String mAttractionAddress;
+
     /**
      * information about the attraction
      */
     private String mAttractionInfo;
+
     /**
      * Image resource ID for the attraction
      */
