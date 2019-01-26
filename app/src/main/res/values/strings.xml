@@ -3,4 +3,14 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="picture_of_attraction">picture of attraction</string>
+
+    <!-- Category name for sights [CHAR LIMIT=20] -->
+    <string name="category_sights">Sights</string>
+    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+    <!-- Category name for cafes [CHAR LIMIT=20] -->
+    <string name="category_cafes">Cafes</string>
+    <!-- Category name for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
 </resources>
