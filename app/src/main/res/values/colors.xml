@@ -8,11 +8,11 @@
     <!-- Background color for the restaurants list -->
     <color name="restaurants">#16AFCA</color>
     <!-- Background color for the cafes list -->
-    <color name="cafes">#16AFCB</color>
+    <color name="cafes">#99AA88</color>
     <!-- Background color for the museum list -->
-    <color name="museum">#16AFCC</color>
+    <color name="museum">#44BB11</color>
     <!-- Background color for the sights list -->
-    <color name="sights">#16AFCD</color>
+    <color name="sights">#000CDD</color>
 
 
 </resources>
