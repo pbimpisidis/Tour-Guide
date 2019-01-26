@@ -47,13 +47,11 @@ public class Attraction {
      *
      * @param attractionTitle   is the title of an attraction (e.g. restaurant, museum etc.)
      * @param attractionAddress is the address of the attraction
-     * @param attractionInfo    is the information about the attraction (e.g. opening times etc.)
      * @param attractionImage   is the image associated with the attraction
      */
-    public Attraction(String attractionTitle, String attractionAddress, String attractionInfo, int attractionImage) {
+    public Attraction(String attractionTitle, String attractionAddress, int attractionImage) {
         mAttractionTitle = attractionTitle;
         mAttractionAddress = attractionAddress;
-        mAttractionInfo = attractionInfo;
         mImageResourceId = attractionImage;
     }
 
