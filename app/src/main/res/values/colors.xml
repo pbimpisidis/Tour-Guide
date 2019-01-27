@@ -12,7 +12,7 @@
     <!-- Background color for the museum list -->
     <color name="museum">#44BB11</color>
     <!-- Background color for the sights list -->
-    <color name="sights">#000CDD</color>
+    <color name="sights">#AAFAFA</color>
 
 
 </resources>
