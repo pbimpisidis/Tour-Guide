@@ -34,7 +34,6 @@ public class CafesFragment extends Fragment {
         attractions.add(new Attraction("eNDi", "Zypressenstrasse 49", "Mo-Sa 7am–10pm"));
         attractions.add(new Attraction("Coffee Shack", "Mullerstrasse 31", "Mo-Sa 8am–5:30pm"));
 
-
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
         // simple_list_item_1.xml layout resource defined in the Android framework.

@@ -27,13 +27,12 @@ public class SightsFragment extends Fragment {
 
         // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Old Town" , R.drawable.old_town));
+        attractions.add(new Attraction("Old Town", R.drawable.old_town));
         attractions.add(new Attraction("Uetliberg", R.drawable.uetliberg));
-        attractions.add(new Attraction("Grossmunster",  R.drawable.grossmunster));
-        attractions.add(new Attraction("Zoo",  R.drawable.zoo));
-        attractions.add(new Attraction("Chinese Garden",  R.drawable.chinese_garden));
-        attractions.add(new Attraction("Bahnhofstrasse",  R.drawable.bahnhoffstrasse));
-
+        attractions.add(new Attraction("Grossmunster", R.drawable.grossmunster));
+        attractions.add(new Attraction("Zoo", R.drawable.zoo));
+        attractions.add(new Attraction("Chinese Garden", R.drawable.chinese_garden));
+        attractions.add(new Attraction("Bahnhofstrasse", R.drawable.bahnhoffstrasse));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

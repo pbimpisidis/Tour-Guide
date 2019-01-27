@@ -1,6 +1,7 @@
 package com.example.paschalisbimpisidis.tourguide;
 
 import android.app.Activity;
+import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,22 +14,25 @@ import java.util.ArrayList;
 
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
-    /**Resource ID for the background color for this list of Attractions*/
+    /**
+     * Resource ID for the background color for this list of Attractions
+     */
     private int mColorResourceId;
 
     /**
      * Create a new {@link AttractionAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param attractions   is the list of {@link Attractions}s to be displayed.
+     * @param context     is the current context (i.e. Activity) that the adapter is being created in.
+     * @param attractions is the list of {@link Attraction}s to be displayed.
      */
-    public AttractionAdapter(Activity context, ArrayList<Attraction> attractions, int colorResourceId) {
+    AttractionAdapter(Activity context, ArrayList<Attraction> attractions, int colorResourceId) {
         super(context, 0, attractions);
         mColorResourceId = colorResourceId;
     }
 
+    @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
         //Check if the existing view is being used, otherwise inflate the view
         View listItemView = convertView;
@@ -45,6 +49,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         // Get the attraction title from the currentAttraction object and
         // set this text on the attractionTitle TextView
+        assert currentAttraction != null;
         attractionTitle.setText(currentAttraction.getAttractionTitle());
 
         // Find the TextView in the list_item.xml layout with the ID attraction_address

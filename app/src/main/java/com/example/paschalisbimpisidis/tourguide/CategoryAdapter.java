@@ -21,7 +21,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      *           across swipes.
      */
-    public CategoryAdapter(Context context, FragmentManager fm) {
+    CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -53,16 +53,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     // Generate title based on item position
     @Override
     public CharSequence getPageTitle(int position) {
-        if(position == 0){
+        if (position == 0) {
             return mContext.getString(R.string.category_restaurants);
-        }
-        else if (position == 1){
+        } else if (position == 1) {
             return mContext.getString(R.string.category_cafes);
-        }
-        else if (position == 2){
+        } else if (position == 2) {
             return mContext.getString(R.string.category_museums);
-        }
-        else {
+        } else {
             return mContext.getString(R.string.category_sights);
         }
     }

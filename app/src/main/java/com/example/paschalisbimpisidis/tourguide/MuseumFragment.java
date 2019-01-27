@@ -34,7 +34,6 @@ public class MuseumFragment extends Fragment {
         attractions.add(new Attraction("Kulturama", "Englischviertelstrasse 9", "Tu-Su 1pm-5pm"));
         attractions.add(new Attraction("Money Museum", "Hadlaubstrasse 106", "Mo-Sa 1am–5pm"));
 
-
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
         // simple_list_item_1.xml layout resource defined in the Android framework.
