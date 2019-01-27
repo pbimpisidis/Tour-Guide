@@ -14,9 +14,9 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class RestaurantFragment extends Fragment {
+public class SightsFragment extends Fragment {
 
-    public RestaurantFragment() {
+    public SightsFragment() {
         // Required empty public constructor
     }
 
@@ -27,13 +27,12 @@ public class RestaurantFragment extends Fragment {
 
         // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Ecco Zurich", "Doeltschiweg 234", "Wed-Sun 7pm-12am"));
-        attractions.add(new Attraction("Buckhuser", "Buckhauserstrasse 34", "6:30am–12am"));
-        attractions.add(new Attraction("Da Angela", "Hohlstrasse 449", "Mo-Sa 6:30am–12am"));
-        attractions.add(new Attraction("Haus zum Rüden", "Limmatquai 42", "Mo-Sa 10am–11pm"));
-        attractions.add(new Attraction("Lindenhofkeller", "Pfalzgasse 4", "Mo-Fr 11:45am–11:45pm"));
-        attractions.add(new Attraction("BÜ’s", "Kuttelgasse 15", "Mo-Fr 11am–11:30pm"));
-        attractions.add(new Attraction("Mythos", "Sihlstrasse 93", "Mo-Fr 7am–7pm"));
+        attractions.add(new Attraction("Old Town" , R.drawable.old_town));
+        attractions.add(new Attraction("Uetliberg", R.drawable.uetliberg));
+        attractions.add(new Attraction("Grossmunster",  R.drawable.grossmunster));
+        attractions.add(new Attraction("Zoo",  R.drawable.zoo));
+        attractions.add(new Attraction("Chinese Garden",  R.drawable.chinese_garden));
+        attractions.add(new Attraction("Bahnhofstrasse",  R.drawable.bahnhoffstrasse));
 
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
@@ -41,7 +40,7 @@ public class RestaurantFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single attraction.
-        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.restaurants);
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.sights);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

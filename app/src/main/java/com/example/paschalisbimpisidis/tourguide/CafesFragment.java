@@ -1,6 +1,7 @@
 package com.example.paschalisbimpisidis.tourguide;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,11 +21,11 @@ public class CafesFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
-        // Create an array of words
+        // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
         attractions.add(new Attraction("Roots", "Lintheschergasse 15", "7am-8pm"));
         attractions.add(new Attraction("Juicery 21", "Sihlstrasse 93", "7am–7pm"));
