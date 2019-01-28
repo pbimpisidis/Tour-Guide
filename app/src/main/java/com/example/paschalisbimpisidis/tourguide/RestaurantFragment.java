@@ -27,13 +27,13 @@ public class RestaurantFragment extends Fragment {
 
         // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Ecco Zurich", "Doeltschiweg 234", "Wed-Sun 7pm-12am"));
-        attractions.add(new Attraction("Buckhuser", "Buckhauserstrasse 34", "6:30am–12am"));
-        attractions.add(new Attraction("Da Angela", "Hohlstrasse 449", "Mo-Sa 6:30am–12am"));
-        attractions.add(new Attraction("Haus zum Rüden", "Limmatquai 42", "Mo-Sa 10am–11pm"));
-        attractions.add(new Attraction("Lindenhofkeller", "Pfalzgasse 4", "Mo-Fr 11:45am–11:45pm"));
-        attractions.add(new Attraction("BÜ’s", "Kuttelgasse 15", "Mo-Fr 11am–11:30pm"));
-        attractions.add(new Attraction("Mythos", "Sihlstrasse 93", "Mo-Fr 7am–7pm"));
+        attractions.add(new Attraction(getString(R.string.restaurant1), getString(R.string.restaurant1address), getString(R.string.restaurant1times)));
+        attractions.add(new Attraction(getString(R.string.restaurant2), getString(R.string.restaurant2address), getString(R.string.restaurant2times)));
+        attractions.add(new Attraction(getString(R.string.restaurant3), getString(R.string.restaurant3address), getString(R.string.restaurant3times)));
+        attractions.add(new Attraction(getString(R.string.restaurant4), getString(R.string.restaurant4address), getString(R.string.restaurant4times)));
+        attractions.add(new Attraction(getString(R.string.restaurant5), getString(R.string.restaurant5address), getString(R.string.restaurant5times)));
+        attractions.add(new Attraction(getString(R.string.restaurant6), getString(R.string.restaurant6address), getString(R.string.restaurant6times)));
+        attractions.add(new Attraction(getString(R.string.restaurant7), getString(R.string.restaurant7address), getString(R.string.restaurant7times)));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

@@ -27,12 +27,12 @@ public class CafesFragment extends Fragment {
 
         // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Roots", "Lintheschergasse 15", "7am-8pm"));
-        attractions.add(new Attraction("Juicery 21", "Sihlstrasse 93", "7am–7pm"));
-        attractions.add(new Attraction("Boreal", "Talacker 41", "9am–6:30pm"));
-        attractions.add(new Attraction("Mame", "Josefstrasse 160", "Mo-Sa 8:30am–6pm"));
-        attractions.add(new Attraction("eNDi", "Zypressenstrasse 49", "Mo-Sa 7am–10pm"));
-        attractions.add(new Attraction("Coffee Shack", "Mullerstrasse 31", "Mo-Sa 8am–5:30pm"));
+        attractions.add(new Attraction(getString(R.string.cafe1), getString(R.string.cafe1address), getString(R.string.cafe1times)));
+        attractions.add(new Attraction(getString(R.string.cafe2), getString(R.string.cafe2address), getString(R.string.cafe2times)));
+        attractions.add(new Attraction(getString(R.string.cafe3), getString(R.string.cafe3address), getString(R.string.cafe3times)));
+        attractions.add(new Attraction(getString(R.string.cafe4), getString(R.string.cafe4address), getString(R.string.cafe4times)));
+        attractions.add(new Attraction(getString(R.string.cafe5), getString(R.string.cafe5address), getString(R.string.cafe5times)));
+        attractions.add(new Attraction(getString(R.string.cafe6), getString(R.string.cafe6address), getString(R.string.cafe6times)));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

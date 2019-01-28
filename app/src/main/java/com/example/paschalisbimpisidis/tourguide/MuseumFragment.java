@@ -27,12 +27,12 @@ public class MuseumFragment extends Fragment {
 
         // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("National Museum", "Museumstrasse 2", "Tu-Su 10am-5pm"));
-        attractions.add(new Attraction("Kunsthaus", "Heimplatz 1", "Tu-Su 10am-8pm"));
-        attractions.add(new Attraction("Fifa Museum", "Seestrasse 27", "Tu-Su 10am-7pm"));
-        attractions.add(new Attraction("Tram-Museum", "Forchstrasse 20", "Sa-Mo 1pm-6pm"));
-        attractions.add(new Attraction("Kulturama", "Englischviertelstrasse 9", "Tu-Su 1pm-5pm"));
-        attractions.add(new Attraction("Money Museum", "Hadlaubstrasse 106", "Mo-Sa 1am–5pm"));
+        attractions.add(new Attraction(getString(R.string.museum1), getString(R.string.museum1address), getString(R.string.museum1times)));
+        attractions.add(new Attraction(getString(R.string.museum2), getString(R.string.museum2address), getString(R.string.museum2times)));
+        attractions.add(new Attraction(getString(R.string.museum3), getString(R.string.museum3address), getString(R.string.museum3times)));
+        attractions.add(new Attraction(getString(R.string.museum4), getString(R.string.museum4address), getString(R.string.museum4times)));
+        attractions.add(new Attraction(getString(R.string.museum5), getString(R.string.museum5address), getString(R.string.museum5times)));
+        attractions.add(new Attraction(getString(R.string.museum6), getString(R.string.museum6address), getString(R.string.museum6times)));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
